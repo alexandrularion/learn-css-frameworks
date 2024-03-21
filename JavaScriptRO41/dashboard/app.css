@@ -1,0 +1,11 @@
+
+:root {
+    --sidebar-width: 280px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) calc(100% - var(--sidebar-width));
+    width: 100vw;
+    height: 100vh;
+}
