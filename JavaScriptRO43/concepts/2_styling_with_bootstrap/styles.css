@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  /* Override the default variables for the button primary */
+  --bs-btn-color: #000;
+  --bs-btn-bg: #0dfd11;
+  padding: 12px 35px;
+}
