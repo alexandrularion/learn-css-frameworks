@@ -10,3 +10,16 @@
   --bs-btn-bg: #0dfd11;
   padding: 12px 35px;
 }
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 16px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
