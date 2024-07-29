@@ -1,0 +1,4 @@
+:root {
+  /* Override the variable with a new color */
+  --bs-primary-rgb: 200, 110, 253;
+}
