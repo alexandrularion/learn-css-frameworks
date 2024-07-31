@@ -2,3 +2,17 @@
   /* Override the variable with a new color */
   --bs-primary-rgb: 200, 110, 253;
 }
+
+/* Styling a custom input component without bootstrap */
+.custom-input {
+  border-radius: 35px;
+  color: blue;
+  padding: 10px;
+}
+
+/* This is how theme works in bootstrap by using attribute selectors */
+/* [type="email"] {
+  border-radius: 35px;
+  color: blue;
+  padding: 10px;
+} */

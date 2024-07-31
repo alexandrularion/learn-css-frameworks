@@ -1,0 +1,45 @@
+.custom-image {
+  width: 80%;
+}
+
+/* Add new properties */
+.img-fluid {
+  width: 100%;
+  object-fit: cover;
+}
+
+.custom-flexbox {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.custom-flexbox-item {
+  height: 50vh;
+  width: 100%;
+}
+
+.custom-flexbox-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.embed-yt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.ratio {
+  width: 80vw;
+  height: max-content;
+}
+
+@media (max-width: 1000px) {
+  .custom-flexbox {
+    flex-direction: column;
+  }
+}
