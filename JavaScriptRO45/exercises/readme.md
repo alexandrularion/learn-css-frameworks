@@ -13,7 +13,7 @@
 // 3. Create a container with a row and three equal-width columns.
 // 4. Add some placeholder text to each column.
 
-
+ 
 // Exercise 2: Responsive Navbar
 // Objective:
 // Create a responsive navigation bar.
