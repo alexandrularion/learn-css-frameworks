@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Setup</title>
+    <!-- Import Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Import CSS -->
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Flexbox Example -->
+    <div class="d-flex flex-column gap-5 container">
+      <img
+        src="https://images.pexels.com/photos/20542478/pexels-photo-20542478/free-photo-of-elderly-woman-in-traditional-clothing-walking-with-backpack.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Travel"
+      />
+      <img
+        src="https://images.pexels.com/photos/27034673/pexels-photo-27034673/free-photo-of-a-fox-sitting-behind-the-grass-on-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Fox"
+      />
+      <img
+        src="https://images.pexels.com/photos/28462495/pexels-photo-28462495/free-photo-of-charming-cottage-with-vibrant-flower-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Garden"
+      />
+    </div>
+
+    <!-- Link Example -->
+    <a href="#" class="link-opacity-100">Visit example.com</a>
+
+    <!-- Avatar Example -->
+    <div clas="d-flex flex-column">
+      <img
+        class="object-fit-cover rounded-circle avatar-img"
+        src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <h5>John Doe</h5>
+    </div>
+
+    <!-- Text Example -->
+    <p class="fs-4 text-center">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel,
+      nostrum atque earum sint tempore! Incidunt rem voluptatem recusandae, est
+      tempora asperiores et alias. Repellat maxime cum ut quibusdam excepturi?
+    </p>
+
+    <!-- Dark / Light Mode Toggle -->
+    <button id="theme-btn" class="btn btn-secondary">Toggle theme</button>
+
+    <!-- Import Custom JS -->
+    <script src="index.js"></script>
+  </body>
+</html>
